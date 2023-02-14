@@ -1,0 +1,89 @@
+.full{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    overflow-x: hidden;
+    width: 80%;
+}
+    
+.card_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contact-form{
+    position: relative;
+    width: 537px;
+    height: 606px;
+    background-color: blue;
+    float: right;
+    margin: 0 -26px 0 0;
+    padding: 100px 102px 0 45px;
+    background: url('../images/bg.png') left top no-repeat;
+}
+
+
+.p{
+    width: 100px;
+}
+
+.email{
+    position: absolute;
+    top: 90px;
+    font-size: 18px;
+    right:90px;
+}
+
+button{
+    margin-top: 3px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 640px) {
+    .contact-form{
+        width: auto;
+        background-size: 437px 525px;
+        margin: auto;
+    }
+    .form-group{
+        width: 300px;
+    }
+    #exampleTextarea{
+        width: 300px;
+        max-height: 100px;
+    }
+    .email{
+        font-size: 15px;
+        right:150px;
+    }
+}
+
+@media only screen and (max-width: 539px) {
+    .wrap-contact{
+        background-color: #f0f0f0;
+    }
+    
+    .contact-form{
+        width: 100%;
+        background-image: none;
+        padding: 15px 15px 0 15px;
+        height: 550px;
+    }
+    .email{
+        position: absolute;
+        top: 4px;
+        right: 0;
+    }
+    #exampleTextarea{
+        height: 150px;
+        max-height: 180px;
+        width: 100%;
+    }
+    .form-group{
+        width: 100%;
+    }
+}

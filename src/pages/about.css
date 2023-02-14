@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+.div-about{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px ;
+}
+
+.para, .para-1{
+    width: 450px;
+    margin: auto;
+    font-family: 'Old Standard TT', serif;
+    font-weight:normal;    
+}
+
+.title{
+    margin: auto;
+    font-family: 'Old Standard TT', serif;
+    font-weight:normal;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+hr{
+    width:50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.para-1:first-letter {
+    font-family: 'Old Standard TT';
+    float: left;
+    font-size: 6rem;
+    font-weight:normal;
+    line-height: 0.65;
+    margin: 0.2em  0;
+}
+
+.skills{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills img {
+    width: 100px;
+}
+.skills :nth-child(n):hover{
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.social_links{
+  width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social_links img {
+  width: 100px;
+}
+.social_links :nth-child(n):hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+
+mark {
+    -webkit-animation: 1.2s highlights 0.4s 1 normal forwards;
+            animation: 1.2s highlights 0.4s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, #fcee90 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+
+  @-webkit-keyframes highlights {
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+  @keyframes highlights {
+    to {
+      background-position: 0 0;
+    }
+  }
+
+@media only screen and (max-width: 539px) {
+    .para, .para-1{
+      width: 80%;
+      margin: auto;
+      font-family: 'Old Standard TT', serif;
+      font-weight:normal;
+      font-size: 14px;
+
+      }
+      .title{
+        font-size: 15px;
+      }
+      .skills{
+        width: 90%;
+    }
+    .skills :nth-child(n){
+      width: 90px;
+    }
+    .skills :nth-child(n):hover{
+      transform: scale(1.1);
+      transition: all 0.5s ease-in-out;
+    }
+    .social_links{
+      width: 90%;
+  }
+    .social_links :nth-child(n){
+      width: 90px;
+    }
+    .social_links :nth-child(n):hover{
+      transform: scale(1.05);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+
+  @media only screen and (min-width: 1330px) {
+    .para, .para-1{
+      width: 35%;
+      font-size: larger;
+    }
+  }

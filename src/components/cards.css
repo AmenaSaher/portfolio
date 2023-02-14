@@ -1,0 +1,40 @@
+
+.card{
+    height: 480px;
+    max-width: 25rem;
+}
+
+.d-block{
+    font-size:1.125rem;
+    text-anchor:middle;
+}
+.icons-img{
+    width: 40px;
+}
+.cardss{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.proj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.card-link:hover{
+    background-color: #fffb26;
+}
+.image{
+    height: 195px;
+}
+
+@media only screen and (max-width: 450px){
+    .card{
+        width: 75%;
+    }
+}

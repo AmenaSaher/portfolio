@@ -1,0 +1,17 @@
+
+@font-face {
+  font-family: "Light";/*Can be any text*/
+  src: local("Gemini Moon.ttf"),
+    url("./fonts/Gemini Moon.otf") format("truetype");  } 
+  
+#spinner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.pencil-gif{
+  width: 200px;
+}
+
