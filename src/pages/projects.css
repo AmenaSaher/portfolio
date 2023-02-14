@@ -2,7 +2,7 @@
     overflow: hidden;
 }
 .card{
-    height: 480px;
+    height: 500px;
     max-width: 25rem;
 }
 
@@ -17,9 +17,6 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
-
-
 
 .proj{
     display: flex;
