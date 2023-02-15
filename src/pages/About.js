@@ -27,7 +27,7 @@ export default function About() {
         <h4 className='title'>ABOUT</h4>
         <hr/>
         <p className='para-1'> 
-          Hello! I'm Amena, a <mark>front-end developer</mark> from India. 
+          Hello! I'm Amena, a self taught <mark>front-end developer</mark> from India. 
           I am currently pursuing my undergrad.</p>
         <p className='para'>
             I became intrigued by web design and development 2 years
