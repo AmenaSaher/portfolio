@@ -29,15 +29,15 @@ export default function Contact() {
       <form ref={form} onSubmit={sendEmail} className="card-body card_body">
         <div className="form-group" style={{maxWidth: "400px"}}>
           <label htmlFor="typeText" className="form-label mt-4">Name</label>
-          <input type="text" className="form-control" name="from_name" id="typeText" aria-describedby="textHelp" placeholder="Enter Name"/>
+          <input type="text" className="form-control" name="from_name" id="typeText" aria-describedby="textHelp" placeholder="Enter Name" required/>
         </div>
         <div className="form-group" style={{maxWidth: "400px"}}>
           <label htmlFor="exampleInputEmail1" className="form-label mt-4">Email address</label>
-          <input type="email" className="form-control" name="reply_to" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"/>
+          <input type="email" className="form-control" name="reply_to" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" required/>
         </div>
         <div className="form-group">
           <label htmlFor="exampleTextarea" className="form-label mt-4">Say Hi!</label>
-          <textarea className="form-control" name="message" id="exampleTextarea" placeholder=". . ." rows="3" style={{maxWidth: "400px"}}></textarea>
+          <textarea className="form-control" name="message" id="exampleTextarea" placeholder=". . ." rows="3" style={{maxWidth: "400px"}} required></textarea>
         </div>
       <button type="submit" value="Send" className='btn btn-primary'>Send</button>
       <p className='email'>amenasaher4@gmail.com</p>
