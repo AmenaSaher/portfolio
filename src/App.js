@@ -19,7 +19,7 @@ function App() {
     setTimeout(() => {
       spinner.style.display = "none";
       setloading(false)
-    },4500);
+    },1200);
   }
   return (
     !loading && (
