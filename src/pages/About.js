@@ -28,7 +28,7 @@ export default function About() {
         <hr/>
         <p className='para-1'> 
           Hello! I'm Amena, a self taught <mark>front-end developer</mark> from India. 
-          I am currently pursuing my undergrad.</p>
+          I'm a recent computer engineering undergraduate.</p>
         <p className='para'>
             I became intrigued by web design and development 2 years
             ago when I saw how much creative potential it offers. 
