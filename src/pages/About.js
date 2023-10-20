@@ -43,7 +43,7 @@ export default function About() {
           web and user experiences and where I can expand my knowledge and contribute my ideas.
           </p>
         <p className='para'>
-          When I'm not busy centering a div, I enjoy drawing, reading, writing, playing video games and 
+          When I'm not busy centering a div, I enjoy <a href="http://deviantart.com/doo16">drawing</a>, reading, writing, playing video games and 
           trying to be funny (when I'm not).</p>
         <br/>
         <p className='para' style={{cursor: "pointer"}}><mark><a href={pdf} download="Amena Saher Resume.pdf">Download Resume</a></mark></p>
